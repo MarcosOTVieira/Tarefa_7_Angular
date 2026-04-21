@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+	--bg-start: #f3f7fb;
+	--bg-end: #e8f0f8;
+	--surface: rgba(255, 255, 255, 0.78);
+	--border: rgba(96, 128, 161, 0.24);
+	--text: #213144;
+	--muted: #5f7288;
+	--accent: #4ea6c5;
+	--accent-2: #7fa7d1;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: "Segoe UI", Roboto, Arial, sans-serif;
+	color: var(--text);
+	background:
+		radial-gradient(circle at top, rgba(78, 166, 197, 0.2), transparent 35%),
+		linear-gradient(160deg, var(--bg-start), var(--bg-end));
+}
+
+a {
+	color: inherit;
+}
+
+button,
+a {
+	-webkit-tap-highlight-color: transparent;
+}

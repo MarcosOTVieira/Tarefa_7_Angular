@@ -1,0 +1,10 @@
+.shell {
+	min-height: calc(100dvh - 148px);
+	padding-bottom: 120px;
+}
+
+@media (max-width: 760px) {
+	.shell {
+		padding-bottom: 200px;
+	}
+}
